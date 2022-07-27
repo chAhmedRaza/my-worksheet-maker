@@ -7,13 +7,10 @@ npm install
 
 ### Compiles and hot-reloads for development
 ```
-npm run serve
+vue-cli-service serve
 ```
 
-### Compiles and minifies for production
+In case vue-cli-service insn't available, please try: 
 ```
-npm run build
+npx vue-cli-service serve
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
